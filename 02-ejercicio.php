@@ -18,16 +18,20 @@
   
 <h1 class="blue">php y js</h1>
 
-<script>
-    let nombre, apellido;
-    nombre= prompt("Como te llamas?");
-    apellido= prompt("Y tu apellido?");
-    //document.write("Hola "+nombre+" "+apellido);
-    
-</script> 
 
 
 <?php 
+
+echo '
+    <script>
+        let nombre, apellido;
+        nombre= prompt("Como te llamas?");
+        apellido= prompt("Y tu apellido?");
+        //document.write("Hola "+nombre+" "+apellido);
+    
+    </script> 
+
+';
     
 // variable en php se define con $ por delante 
 
