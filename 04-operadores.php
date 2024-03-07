@@ -46,7 +46,8 @@
     echo "<p> $a * $b = ".($a*$b)."</p>";
     echo "<p> $a / $b = ".($a/$b)."</p>";
     echo "<p> $a % $b = ".($a%$b)."</p>";
-    
+
+        
     //incrementar el valor en 1
     $a++;
     //$a=$a+1;
@@ -59,6 +60,7 @@
     // $c=$c+6
     echo "<p>$c</p>";
     
+   
 ?>
     
     
